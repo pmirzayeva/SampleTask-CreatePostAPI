@@ -12,7 +12,7 @@ body{
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-    background: rgb(148,204,245);
+    background: rgb(248, 252, 255);
 }
 
 header{
@@ -39,6 +39,7 @@ header h1{
     margin: 20px 0;
     padding: 10px 20px;
     font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.69);
 }
 
 .postForm input,
@@ -49,6 +50,7 @@ margin: 5px 0;
 font-size: 18px;
 font-family: sans-serif;
 border: 1px solid #ddd;
+background-color:white;
 }
 
 .postForm button{
