@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreatePost</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <img src="https://static-00.iconduck.com/assets.00/reddit-logo-icon-2048x2048-vtzhwa71.png">
+        <h1>Reddit</h1>
+    </header>
+
+
+    <div class="postContainer">
+        <div class="firstPostBox">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyX7Nt9svtNNkR6Q1la6KDODrglqGGKM9TeA&usqp=CAU">
+            <input id="firstPostInput" type="text" placeholder="Create post">
+        </div>
+    </div>
+
+
+    <div class="modalContainer">
+        <div class="secondPostBox">
+            <form class="postForm">
+                <input id="userNameInput" type="text" placeholder="Your Username">
+                <input id="avatarUrlInput" type="url" placeholder="Your Avatar Url">
+                <input id="postTitle" type="text" placeholder="Title" required>
+                <textarea id="postDesc" rows="2" placeholder="Description" required></textarea>
+                <button id="postBtn" type="submit">Post</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+        <hr style="width: 100%; border: 1px solid #000041;">
+    
+        <div id="postLists" class="container d-flex justify-content-center align-items-center flex-column gap-4 p-3" style="width: 50%;">
+        </div>
+
+<script src="./assets/js/convertedTime.js"></script>
+<script src="./assets/js/index.js"></script>
+</body>
+</html>
